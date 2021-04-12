@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="5336" started-at="2021-04-12T12:03:08Z" finished-at="2021-04-12T12:03:13Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="5336" started-at="2021-04-12T12:03:08Z" finished-at="2021-04-12T12:03:13Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.LoginTest@7a0ac6e3]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2021-04-12T12:03:08Z" finished-at="2021-04-12T12:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@7a0ac6e3]" name="setup" is-config="true" duration-ms="3375" started-at="2021-04-12T12:03:08Z" finished-at="2021-04-12T12:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:tests.LoginTest@7a0ac6e3]" name="testLoginPage" duration-ms="1947" started-at="2021-04-12T12:03:11Z" finished-at="2021-04-12T12:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.LoginTest@7a0ac6e3]" name="afterSuite" is-config="true" duration-ms="906" started-at="2021-04-12T12:03:13Z" finished-at="2021-04-12T12:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- TestSuite -->
+</testng-results>
